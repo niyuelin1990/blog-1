@@ -8,7 +8,7 @@ tags: ["db", "nosql", "foundationdb"]
 ---
 
 
-# Linux下安装FoundationDB
+<!-- # Linux下安装FoundationDB -->
 
 `系统要求: `
 
