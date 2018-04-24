@@ -10,6 +10,10 @@ if [ $# -eq 1  ]
     then msg="$1"
 fi
 
+rm  -rf public
+
+git clone https://github.com/shaocongcong/shaocongcong.github.io.git public
+
 # Build the project. 
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 

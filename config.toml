@@ -73,6 +73,12 @@ desc = "Xiaoxin"
     weight = 3
 
 [[menu.main]]
+    parent = "Categories"
+    name = "db"
+    url = "categories/foundationdb"
+    weight = 3
+
+[[menu.main]]
     name = "Tags"
     url = "tags"
     weight = 3
