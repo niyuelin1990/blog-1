@@ -8,7 +8,12 @@ tags: ["db", "nosql", "foundationdb"]
 ---
 
 
+
 <!-- # Linux下安装FoundationDB -->
+### 简介
+2015 年苹果公司收购了数据提供商 FoundationDB，目的是为了提升旗下 App Store、iTunes Connect、 iTunes 服务在云端的服务器技术。FoundationDB 随之从开源变为闭源，而三年后的现在，它又重新开源了。
+FoundationDB是”一个能在多集群服务器上存放大规模结构化数据的分布式数据库“。该数据库系统专注于高性能、高可扩展性、优秀的容错能力。
+FoundationDB是由戴夫·罗森塔尔（Dave Rosenthal）、戴夫·谢勒（Dave Scherer）、和尼克拉维泽（Nick Lavezzo）于2009年开发的，旨在建立一个符合ACID约束的NoSQL数据库，ACID是一种即使在发生错误时也保证数据完整性的数据库机制。
 
 <a href="https://apple.github.io/foundationdb/downloads.html" target="_blank"> [下载地址]
 
