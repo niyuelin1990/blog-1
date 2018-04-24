@@ -10,6 +10,8 @@ tags: ["db", "nosql", "foundationdb"]
 
 <!-- # Linux下安装FoundationDB -->
 
+<a href="https://apple.github.io/foundationdb/downloads.html" target="_blank"> [下载地址]
+
 `系统要求: `
 
 - 64位操作系统
