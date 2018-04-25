@@ -10,7 +10,7 @@ tags: [ "golang" ]
 
 golang本身不提供获取goroutineID的接口，如果要获取goroutineID可以使用下面的方法
 
-``` golang
+``` go
 
 package main
 
