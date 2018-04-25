@@ -3,7 +3,7 @@ title: "golang调用foundationDB"
 date: 2018-04-25T19:37:24+08:00
 draft: false
 
-categories: ["golang", "db", "foundationdb"]
+categories: ["foundationdb"]
 keywords: ["golang", "go", "db", "nosql", "foundationdb"]
 tags: ["golang", "db", "nosql", "foundationdb"]
 ---

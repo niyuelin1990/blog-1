@@ -2,7 +2,7 @@
 title: "区块链简介"
 date: 2018-04-25T14:04:57+08:00
 draft: false
-categories: ["blockchain", "区块链"]
+categories: ["blockchain"]
 keywords: ["blockchain", "区块链"]
 tags: ["blockchain", "区块链"]
 ---

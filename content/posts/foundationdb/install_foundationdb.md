@@ -2,7 +2,7 @@
 title: "Linux下安装FoundationDB"
 date: 2018-04-23T21:20:03+08:00
 draft: false
-categories: ["db", "foundationdb"]
+categories: ["foundationdb"]
 keywords: ["db", "nosql", "foundationdb"]
 tags: ["db", "nosql", "foundationdb"]
 ---
