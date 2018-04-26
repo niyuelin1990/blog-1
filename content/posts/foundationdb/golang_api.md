@@ -8,9 +8,9 @@ keywords: ["golang", "go", "db", "nosql", "foundationdb"]
 tags: ["golang", "db", "nosql", "foundationdb"]
 ---
 
-FoundationDB是苹果苹果公司早起闭源又重新开源的一款KV数据库（一开源就是5.x的版本6666），并且支持分布式事务（赞）。
-下面为大家介绍一下go是如何使用foundationDB，废话不多说直接上代码！
+FoundationDB是苹果苹果公司早起闭源又重新开源的一款KV数据库（一开源就是5.x的版本6666），并且支持分布式事务，FoundationDB的核心提供了一个简单的数据模型以及强大的事务处理。。
 
+下面为大家介绍一下go是如何使用foundationDB，废话不多说直接上代码！
 
 ### 1. 简单的增、删、查（事务）
 ``` go
