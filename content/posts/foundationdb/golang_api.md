@@ -33,7 +33,7 @@ func main() {
 
 	// ok !上述我们已经准备好了一个database, 下面让我们尝试写入一组k-v数据happy一下。
 	// 下面是一次单一事务操作，如果没有错误返回，那么数据将会100%插入。
-	_, err = db.Transact(func(tr fdb.Transaction) (ret interface{}, e error) {
+	_, err := db.Transact(func(tr fdb.Transaction) (ret interface{}, e error) {
 		tr.Set(fdb.Key("hello"), []byte("world"))
 		return
 	})
