@@ -1,5 +1,5 @@
 ---
-title: "一个简单的例子"
+title: "基于foundationDB的课程管理例子"
 date: 2018-04-26T13:15:19+08:00
 draft: false
 categories: ["foundationdb"]
