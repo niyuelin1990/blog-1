@@ -79,6 +79,12 @@ desc = "Xiaoxin"
     weight = 3
 
 [[menu.main]]
+    parent = "Categories"
+    name = "im"
+    url = "categories/im"
+    weight = 3
+
+[[menu.main]]
     name = "Tags"
     url = "tags"
     weight = 3

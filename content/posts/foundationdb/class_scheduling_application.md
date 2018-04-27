@@ -2,6 +2,7 @@
 title: "基于foundationDB的课程管理例子"
 date: 2018-04-26T13:15:19+08:00
 draft: false
+bigimg: [{src: "https://res.cloudinary.com/shaocongcong/image/upload/v1524187685/blog/bigimg/internet.jpg", desc: "internet"}]
 categories: ["foundationdb"]
 keywords: ["golang", "go", "db", "nosql", "foundationdb"]
 tags: ["golang", "db", "nosql", "foundationdb"]
