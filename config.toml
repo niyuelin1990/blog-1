@@ -80,6 +80,12 @@ desc = "Xiaoxin"
 
 [[menu.main]]
     parent = "Categories"
+    name = "监控"
+    url = "categories/trace"
+    weight = 3
+
+[[menu.main]]
+    parent = "Categories"
     name = "im"
     url = "categories/im"
     weight = 3
