@@ -111,6 +111,6 @@ func someFunction() {
 
 然后到Jaeger去查询刚刚的调用，如下图：
 ![span_hello_2](https://res.cloudinary.com/shaocongcong/image/upload/v1525410983/blog/trace/opentracing/jaeger_hello_2.jpg)
-![span_hello_4](https://res.cloudinary.com/shaocongcong/image/upload/v1525410983/blog/trace/opentracing/jaeger_hello_3.jpg)
+![span_hello_4](https://res.cloudinary.com/shaocongcong/image/upload/v1525410983/blog/trace/opentracing/jaeger_hello_4.jpg)
 
 OK ! 简单的示例就到这里结束了，这里Jaeger是通过docker部署的，官方在对于非docker部署方式的文档基本是无的，后面我会写一篇如果在Linux下通过二进制部署Jaeger，See you! 
