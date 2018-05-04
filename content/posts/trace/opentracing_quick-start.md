@@ -36,10 +36,12 @@ opentracing是一套分布式追踪协议，与平台，语言无关，统一接
 当然opentracing只是一套标准，要玩转还需要配合Jaeger。
 Jaeger 是 Uber 推出的一款开源分布式追踪系统，兼容 OpenTracing API。
 
-#### Jaeger架构
+### Jaeger架构
 
 ![Jaeger架构](https://res.cloudinary.com/shaocongcong/image/upload/v1525409626/blog/trace/opentracing/jaeger.png)
 
+
+### Jaeger Docker部署
 用docker起一个示例Jaeger服务。
 
     docker run -d -p 5775:5775/udp -p 16686:16686 jaegertracing/all-in-one:latest
