@@ -38,7 +38,7 @@ Jaeger 是 Uber 推出的一款开源分布式追踪系统，兼容 OpenTracing 
 
 ### Jaeger架构
 
-![Jaeger架构](https://res.cloudinary.com/shaocongcong/image/upload/v1525409626/blog/trace/opentracing/jaeger.png)
+![Jaeger架构](https://res.cloudinary.com/shaocongcong/image/upload/v1525423400/blog/trace/opentracing/jaeger-architecture.png)
 
 
 ### Jaeger Docker部署
