@@ -10,8 +10,20 @@ tags: [ "监控" ]
 ---
 
 最近在折腾Jaeger，Jaeger官网都是介绍如何通过Docker部署，二进制部署文档基本没有（已咨询过作者，作者说没文档！你参考Docker自己部署好了！！！），所以打算写一篇Linux部署。
+### Jaeger
+Jaeger是Uber推出的一款调用链追踪系统，类似于Zipkin和Dapper，为微服务调用追踪而生。 其主要用于多个服务调用过程追踪分析，图形化服务调用轨迹，便于快速准确定位问题。
 
-### 所需
+#### Jaeger组成
+- 前端界面展示UI
+- 数据存储Cassandra
+- 数据查询Query
+- 数据收集处理Collector
+- 客户端代理Agent
+- 客户端库jaeger-client-*
+#### Jaeger服务之间关系
+![Jaeger服务之间关系](https://res.cloudinary.com/shaocongcong/image/upload/v1525423400/blog/trace/opentracing/jaeger-architecture.png)
+
+### 打造所需原材料
 
 - [Docker](https://www.docker.com)
 - [Cassandra](https://cassandra.apache.org)
