@@ -1,5 +1,5 @@
 ---
-title: "Linux部署Jaeger"
+title: "Linux下从零开始部署和使用Jaeger"
 date: 2018-05-04T13:40:21+08:00
 draft: false
 
