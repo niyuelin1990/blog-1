@@ -97,14 +97,36 @@ cqlsh -h HOST -p PORT -f fileName
 cqlsh 10.100.7.46 -f $GOPATH/src/github.com/jaegertracing/jaeger/plugin/storage/cassandra/schema/v001.cql.tmpl 
 ```
 上面的命令是我搜索来的，因为在导入之前我已经手动一条一条加进去了(＞﹏＜)!如果不好用的话，读者可以直接cqlsh一条一条黏上去！！！！
-### Nginx部署
+<!-- ### Nginx部署 -->
 
 ### Jaeger部署
-#### Collector部署
-#### Query部署
-#### Standalone部署
-#### Agent部署
 
+ok! 现在正式进入主题：Jaeger安装。- [Jaeger二进制安装包](https://github.com/jaegertracing/jaeger/releases)
+``` shell
+tar -zxvf jaeger-1.4.1-linux-amd64.tar.gz
+mv jaeger-1.4.1-linux-amd64 jaeger
+``` 
+
+#### Collector部署
+``` shell
+mkdir collector
+mv jaeger-collector collector/collector
+nohup ./collector --cassandra.keyspace=jaeger_v1_datacenter1  --cassandra.servers=10.100.7.46,10.100.7.47,10.100.7.48 --collector.zipkin.http-port=9411 1>1.log 2>2.log &
+``` 
+#### Query部署
+``` shell
+mkdir query
+mv jaeger-query query/query
+mv jaeger-ui-build/build query/
+cd query
+nohup ./query --cassandra.keyspace jaeger_v1_datacenter1  --cassandra.servers 10.100.7.46,10.100.7.47,10.100.7.48 --query.static-files=./build  1>1.log 2>2.log &
+``` 
+
+ok 访问你Query的地址 htpp://queryIp:16686 就可以看到久违的jaeger的页面了！
+![](https://res.cloudinary.com/shaocongcong/image/upload/v1525410176/blog/trace/opentracing/jaeger_ui.png)
+
+#### Agent部署
+未完待续!
 
 
 
