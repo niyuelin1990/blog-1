@@ -126,8 +126,13 @@ ok 访问你Query的地址 htpp://queryIp:16686 就可以看到久违的jaeger�
 ![](https://res.cloudinary.com/shaocongcong/image/upload/v1525410176/blog/trace/opentracing/jaeger_ui.png)
 
 #### Agent部署
-未完待续!
+Agent 部署就比较简单了，指定collector地址就OK了！
 
+``` shell
+nohup ./jaeger-agent  --collector.host-port=10.100.7.46:14267   1>1.log 2>2.log &
+``` 
+
+See you!
 
 
 
